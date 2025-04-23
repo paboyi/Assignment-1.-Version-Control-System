@@ -1,5 +1,13 @@
 package org.example;
 
+/**
+ * ShapeFactory is made to define the characteristics/properties of the animated images show on our compiled software.
+ *
+ * ShapeFactory(type int) - defines the Shape and color, by using switch statement and mathematical equations (/ & %).
+ * @author Philippa Aboyi
+ * @version 1.1
+ */
+
 import java.awt.BasicStroke;
 import java.awt.Color;
 import java.awt.GradientPaint;
@@ -69,6 +77,16 @@ public class ShapeFactory {
 
    }
 
+
+
+   /**
+    * Purposed to create a star shape with specific parameters
+    * @param arms - amount of arms a star shape has
+    * @param center - the center of the shape
+    * @param rInner - inner radius
+    * @param rOuter - outer radius
+    * @return path - a geometric path constructed from straight lines
+    */
    private static Shape createStar(int arms, Point center, double rOuter, double rInner) {
       double angle = 3.141592653589793D / (double)arms;
       GeneralPath path = new GeneralPath();
