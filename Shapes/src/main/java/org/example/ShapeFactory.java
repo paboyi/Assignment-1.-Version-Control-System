@@ -5,7 +5,7 @@ package org.example;
  *
  * ShapeFactory(type int) - defines the Shape and color, by using switch statement and mathematical equations (/ & %).
  * @author Philippa Aboyi
- * @version 1.1
+ * @version 1.2
  */
 
 import java.awt.BasicStroke;
